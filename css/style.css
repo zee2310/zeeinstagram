@@ -2,7 +2,21 @@
     font-family: Nabla;
 }
 
+.head-title{
+    margin-top: 25px;
+    font-family: Noto Sans Japanese;
+    color: #FBEAEB ;
+    background-color: #2F3C7E;
+}
+.nav-link{
+    color: #FBEAEB ;
+}
 
+.navbar{
+    font-family: Noto Sans Japanese;
+    color: #FBEAEB ;
+    background-color: #2F3C7E;
+}
 
 .container{
 margin-bottom: 50px;
@@ -78,6 +92,11 @@ margin-bottom: 50px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+
+.btn-download{
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 600px) {
