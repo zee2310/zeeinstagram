@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Zee Instagram</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -50,11 +50,12 @@
     </nav>
     <div class="container">
         <div class="editMenu">
-            <div class="edit">
+            <div class="edit" id="editImg">
                 <div class="img-text">
                     <span class="image-text">Write Your text here</span>
                 </div>
             </div>
+            
             <div class="editform">
                 <form class="formOption">
                     <div class="mb-3">
@@ -122,6 +123,7 @@
                         <option value="Noto Serif Georgian">Noto Serif Georgian</option>
 
                     </select>
+                    <button type="button" id="downloadImg" class="btn btn-dark btn-download">Download</button>
                 </form>
             </div>
         </div>
@@ -129,6 +131,7 @@
 </body>
 
 </html>
+<script src="js/html2canvas.min.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/script.js"></script>
 <script src="js/bootstrap.bundle.js"></script>

@@ -42,3 +42,38 @@ $(".font-family").on('change',function() {
 });
 
 // $(".imgage-text").css("font-weight", "700");
+
+// document.getElementById("editImg").onclick = function() {
+//   const screenshotTarget = document.getElementById("downloadImg");
+
+//   html2canvas(screenshotTarget).then((canvas) => {
+//       const base64image = canvas.toDataURL("image/png");
+//       var anchor = document.createElement('a');
+//       anchor.setAttribute("href", base64image);
+//       anchor.setAttribute("download", "image.png");
+//       anchor.click();
+//       anchor.remove();
+
+//   })
+// };
+
+
+$("#downloadImg").on('click',function() {
+  console.log("aaa");
+  const screenshotTarget = $("#editImg")[0];
+
+  html2canvas(screenshotTarget).then((canvas) => {
+    // $("#out_image").append(canvas);
+      const base64image = canvas.toDataURL("jpeg");
+      var anchor = document.createElement('a');
+      anchor.setAttribute("href", base64image);
+      anchor.setAttribute("download", "image.jpeg");
+      anchor.click();
+      anchor.remove();
+
+  })
+});
+
+$(document).on("click","#test-element",function() {
+  alert("click");
+});
