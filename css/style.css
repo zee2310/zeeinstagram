@@ -12,6 +12,14 @@
     color: #FBEAEB ;
 }
 
+.nav-item a{
+    color: #FBEAEB;
+}
+
+.container-fluid .navbar-brand{
+    color: #FBEAEB;
+}
+
 .navbar{
     font-family: Noto Sans Japanese;
     color: #FBEAEB ;
@@ -44,7 +52,27 @@ margin-bottom: 50px;
 .image-text{
  color: white;   
  font-size: 30px;
- font-family: roboto;
+ font-family: Aref Ruqaa Ink;
+ font-weight: 500;
+}
+.author-text{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 350px;
+}
+
+.author{
+ color: white;   
+ font-size: 15px;
+ font-family: Aref Ruqaa Ink;
+ font-weight: 500;
+}
+
+.author-tag{
+ color: white;   
+ font-size: 15px;
+ font-family: Aref Ruqaa Ink;
+ font-weight: 500;
 }
 
 .form-label{

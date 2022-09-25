@@ -8,6 +8,7 @@
     <title>Zee Instagram</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Aref+Ruqaa+Ink&family=Blaka+Ink&family=Bungee+Spice&family=Cairo+Play:wght@200&family=Inter:wght@100&family=Lato:wght@100&family=Merriweather:wght@300&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nabla&family=Noto+Sans+JP:wght@100&family=Noto+Sans+KR:wght@100&family=Noto+Sans:wght@100&family=Noto+Serif+Georgian:wght@100&family=Nunito+Sans:wght@200&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Oswald:wght@200&family=PT+Sans&family=Playfair+Display&family=Poppins:wght@100&family=Raleway:wght@100&family=Reem+Kufi+Fun&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100&family=Roboto:wght@100&family=Rubik:wght@300&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
 <body>
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Zee Instagram</a>
+            <a class="navbar-brand" href="index.html">Zee Edits</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,15 +26,15 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="zeefonts.html">Font Generator</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
+                    </li> -->
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown link
@@ -43,19 +44,25 @@
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
     </nav>
     <div class="title">
         <center><h1 class="head-title">Generate Post For Instagram</h1></center>
+        <center><h1 class="head-title">Generate Post For Facebook</h1></center>
+        <center><h1 class="head-title">Generate Post For Twitter</h1></center>
     </div>
     <div class="container">
         <div class="editMenu">
             <div class="edit" id="editImg">
                 <div class="img-text">
                     <span class="image-text">Write Your text here</span>
+                </div>
+                <div class="author-text">
+                    <span class="author-tag">-</span>
+                    <span class="author">Author</span>
                 </div>
             </div>
             
@@ -66,11 +73,20 @@
                         <input type="text" class="form-control test" placeholder="Write Your text here"
                             id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Author Name</label>
+                        <input type="text" class="form-control author-name" placeholder="Write Your Name Here"
+                            id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
                     <label fo r="exampleInputEmail1" class="form-label">Our Best Color Combination</label>
                     <select class="form-select zee-colors" aria-label="Default select example">
                         <option selected value="" disabled>Select Our best Color Combination</option>
                         <option  value="1" >Royal Blue &  Peach</option>
-                        <option  value="2" >Peach & Royal Blue</option>
+                        <option  value="2" >Blue & Pink</option>
+                        <option  value="3" >Pink & Blue</option>
+                        <option  value="4" >Charcoal & Yellow</option>
+                        <option  value="5" >Yellow & Charcoal </option>
+                        
 
                     </select>
                     <div class="mb-3">
@@ -138,5 +154,6 @@
 </html>
 <script src="js/html2canvas.min.js"></script>
 <script src="js/jquery.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
