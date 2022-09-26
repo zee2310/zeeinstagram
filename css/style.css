@@ -30,6 +30,11 @@
 margin-bottom: 50px;
 }
 
+.img-text{
+margin-top: 150px;
+text-align: center;
+}
+
 .editMenu{
     width: 100%;
     display: flex;
@@ -54,11 +59,12 @@ margin-bottom: 50px;
  font-size: 30px;
  font-family: Aref Ruqaa Ink;
  font-weight: 500;
+ 
 }
 .author-text{
     text-align: end;
     margin-right: 50px;
-    margin-top: 350px;
+    /* margin-top: 350px; */
 }
 
 .author{
