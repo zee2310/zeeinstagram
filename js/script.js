@@ -105,6 +105,132 @@ $('.zee-colors').on('change', function () {
     $(".author-tag").css('color', '#FCF6F5FF');
     $(".edit").css('background-color', '#990011FF ');
   }
+  else if (this.value == '14') {
+    $(".image-text").css('color', '#FFFFF');
+    $(".author").css('color', '#FFFFF');
+    $(".author-tag").css('color', '#FFFFF');
+    $(".edit").css('background-color', '#8AAAE5 ');
+  }
+  else if (this.value == '15') {
+    $(".image-text").css('color', '#00FFFF');
+    $(".author").css('color', '#00FFFF');
+    $(".author-tag").css('color', '#00FFFF');
+    $(".edit").css('background-color', '#FF69B4');
+  }
+  else if (this.value == '16') {
+    $(".image-text").css('color', '#FF69B4');
+    $(".author").css('color', '#FF69B4');
+    $(".author-tag").css('color', '#FF69B4');
+    $(".edit").css('background-color', '#00FFFF');
+  }
+  else if (this.value == '17') {
+    $(".image-text").css('color', '#EE4E34');
+    $(".author").css('color', '#EE4E34');
+    $(".author-tag").css('color', '#EE4E34');
+    $(".edit").css('background-color', '#FCEDDA');
+  }
+  else if (this.value == '18') {
+    $(".image-text").css('color', '#FCEDDA');
+    $(".author").css('color', '#FCEDDA');
+    $(".author-tag").css('color', '#FCEDDA');
+    $(".edit").css('background-color', '#EE4E34');
+  }
+  else if (this.value == '19') {
+    $(".image-text").css('color', '#00008b');
+    $(".author").css('color', '#00008b');
+    $(".author-tag").css('color', '#00008b');
+    $(".edit").css('background-color', '#ADD8E6');
+  }
+  else if (this.value == '20') {
+    $(".image-text").css('color', '#ADD8E6');
+    $(".author").css('color', '#ADD8E6');
+    $(".author-tag").css('color', '#ADD8E6');
+    $(".edit").css('background-color', '#00008b');
+  }
+  else if (this.value == '21') {
+    $(".image-text").css('color', '#EA738DFF');
+    $(".author").css('color', '#EA738DFF');
+    $(".author-tag").css('color', '#EA738DFF');
+    $(".edit").css('background-color', '#89ABE3FF');
+  }
+  else if (this.value == '22') {
+    $(".image-text").css('color', '#89ABE3FF');
+    $(".author").css('color', '#89ABE3FF');
+    $(".author-tag").css('color', '#89ABE3FF');
+    $(".edit").css('background-color', '#EA738DFF');
+  }
+  else if (this.value == '23') {
+    $(".image-text").css('color', '#99F443');
+    $(".author").css('color', '#99F443');
+    $(".author-tag").css('color', '#99F443');
+    $(".edit").css('background-color', '#EC449B');
+  }
+  else if (this.value == '24') {
+    $(".image-text").css('color', '#EC449B');
+    $(".author").css('color', '#EC449B');
+    $(".author-tag").css('color', '#EC449B');
+    $(".edit").css('background-color', '#99F443');
+  }
+  else if (this.value == '25') {
+    $(".image-text").css('color', '#F7C5CC');
+    $(".author").css('color', '#F7C5CC');
+    $(".author-tag").css('color', '#F7C5CC');
+    $(".edit").css('background-color', '#CC313D');
+  }
+  else if (this.value == '26') {
+    $(".image-text").css('color', '#CC313D');
+    $(".author").css('color', '#CC313D');
+    $(".author-tag").css('color', '#CC313D');
+    $(".edit").css('background-color', '#F7C5CC');
+  }
+  else if (this.value == '27') {
+    $(".image-text").css('color', '#97BC62FF');
+    $(".author").css('color', '#97BC62FF');
+    $(".author-tag").css('color', '#97BC62FF');
+    $(".edit").css('background-color', '#2C5F2D');
+  }
+  else if (this.value == '28') {
+    $(".image-text").css('color', '#2C5F2D');
+    $(".author").css('color', '#2C5F2D');
+    $(".author-tag").css('color', '#2C5F2D');
+    $(".edit").css('background-color', '#97BC62FF');
+  }
+  else if (this.value == '29') {
+    $(".image-text").css('color', '#FCF6F5FF');
+    $(".author").css('color', '#FCF6F5FF');
+    $(".author-tag").css('color', '#FCF6F5FF');
+    $(".edit").css('background-color', '#2BAE66FF');
+  }
+  else if (this.value == '30') {
+    $(".image-text").css('color', '#2BAE66FF');
+    $(".author").css('color', '#2BAE66FF');
+    $(".author-tag").css('color', '#2BAE66FF');
+    $(".edit").css('background-color', '#FCF6F5FF');
+  }
+  else if (this.value == '31') {
+    $(".image-text").css('color', '#2C5F2DFF');
+    $(".author").css('color', '#2C5F2DFF');
+    $(".author-tag").css('color', '#2C5F2DFF');
+    $(".edit").css('background-color', '#FFE77AFF');
+  }
+  else if (this.value == '32') {
+    $(".image-text").css('color', '#FFE77AFF');
+    $(".author").css('color', '#FFE77AFF');
+    $(".author-tag").css('color', '#FFE77AFF');
+    $(".edit").css('background-color', '#2C5F2DFF');
+  }
+  else if (this.value == '33') {
+    $(".image-text").css('color', '#FBF8BE');
+    $(".author").css('color', '#FBF8BE');
+    $(".author-tag").css('color', '#FBF8BE');
+    $(".edit").css('background-color', '#234E70');
+  }
+  else if (this.value == '34') {
+    $(".image-text").css('color', '#234E70');
+    $(".author").css('color', '#234E70');
+    $(".author-tag").css('color', '#234E70');
+    $(".edit").css('background-color', '#FBF8BE');
+  }
   else {
     $(".image-text").css("fontSize", this.value + "px");
     $(".author").css("fontSize", this.value + "px");

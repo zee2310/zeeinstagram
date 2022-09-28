@@ -31,8 +31,12 @@ margin-bottom: 50px;
 }
 
 .img-text{
-margin-top: 150px;
+padding-top: 175px;
 text-align: center;
+}
+
+.form-label{
+    width: 100%;
 }
 
 .editMenu{
@@ -69,7 +73,7 @@ text-align: center;
 
 .author{
  color: white;   
- font-size: 15px;
+ font-size: 23px;
  font-family: Aref Ruqaa Ink;
  font-weight: 500;
 }
