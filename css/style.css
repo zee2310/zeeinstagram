@@ -84,10 +84,10 @@ text-align: center;
  font-family: Aref Ruqaa Ink;
  font-weight: 500;
 }
-
 .form-label{
     margin: 10px 100px;
     margin-bottom: .5rem;
+    font-family: Racing Sans One;
 }
 
 .form-control{
@@ -136,7 +136,31 @@ text-align: center;
     margin-left: 100px;
     margin-top: 50px;
 }
-
+.btn-text{
+    font-family: Racing Sans One;
+}
+.card-header:first-child{
+    font-size: 30px;
+    background-color: rgb(16, 24, 32);
+    color: rgb(254, 231, 21);
+    font-family: Bungee Inline;
+}
+.card-body{
+    background-color: rgb(251, 234, 235);
+}
+.card-title{
+    color: rgb(47, 60, 126);
+    font-family: Caudex;
+    font-size: 25px;
+}
+.card-text{
+    color: rgb(47, 60, 126);
+    font-family: Josefin Slab;
+    font-size: 20px;
+}
+.text-center{
+    margin-top: 50px;
+}
 @media only screen and (max-width: 600px) {
     .editMenu{
         width: 100%;
