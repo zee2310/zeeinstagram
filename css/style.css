@@ -66,6 +66,7 @@ text-align: center;
  
 }
 .author-text{
+    display: none;
     text-align: end;
     margin-right: 50px;
     /* margin-top: 350px; */
@@ -83,6 +84,10 @@ text-align: center;
  font-size: 15px;
  font-family: Aref Ruqaa Ink;
  font-weight: 500;
+}
+.auther-active-btn{
+    margin-left: 100px;
+    display: flex;
 }
 .form-label{
     margin: 10px 100px;

@@ -11,6 +11,14 @@ $('.color-bg').on('change', function () {
   // console.log(this.value);
   $(".edit").css('background-color', this.value);
 });
+$('.author-btn-active').on('change', function () {
+  $(".author-name").prop("disabled", false);
+  $(".author-text").css("display", 'block');
+});
+$('.author-btn-deactive').on('change', function () {
+  $(".author-name").prop("disabled", true);
+  $(".author-text").css("display", 'none');
+});
 
 $('.font-size').on('change', function () {
   // console.log(this.value);
