@@ -3,7 +3,7 @@
 }
 
 .head-title{
-    margin-top: 25px;
+    margin-top: 10px;
     font-family: Noto Sans Japanese;
     color: #FBEAEB ;
     background-color: #2F3C7E;
@@ -17,6 +17,10 @@
 }
 
 .container-fluid .navbar-brand{
+    color: #FBEAEB;
+    font-family: Merriweather;
+}
+.nav-top .nav-btn{
     color: #FBEAEB;
 }
 
@@ -96,7 +100,7 @@ text-align: center;
     font-family: Racing Sans One;
 }
 
-.form-control{
+.form-input{
     display: block;
     margin: 11px 100px;
     width: 50%;

@@ -4,7 +4,7 @@ $('.test').on('change', function () {
 
 $('.author-name').on('change', function () {
   $(".author").html(this.value);
-  $(".author").css('font-size', '15px');
+  $(".author").css('font-size', '23px');
 });
 
 $('.color-bg').on('change', function () {
