@@ -15,6 +15,9 @@
 .nav-item a{
     color: #FBEAEB;
 }
+ul .dropdown-menu{
+    background-color: #2F3C7E;
+}
 
 .img-edit {
     position: relative;
