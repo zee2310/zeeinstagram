@@ -16,6 +16,25 @@
     color: #FBEAEB;
 }
 
+.img-edit {
+    position: relative;
+    }
+.img-edit p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family :Quicksand, sans-serif;
+    }
+.img-edit img{
+    width: 100%;
+}  
+   
 .container-fluid .navbar-brand{
     color: #FBEAEB;
     font-family: Merriweather;

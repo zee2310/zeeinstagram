@@ -264,6 +264,25 @@ $('.text-align').on('change', function () {
     // $(".author-text").css('text-align', 'right');
   }
 });
+
+function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      $('.img-uploaded').attr('src', e.target.result);
+      $('.img-uploaded').hide();
+      $('.img-uploaded').fadeIn(650);
+    }
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+
+$(".img-upload").change(function() {
+  readURL(this);
+  $(".edit").css('display', 'none');
+});
+
+
 $('.color-text').on('change', function () {
   $(".image-text").css('color', this.value);
 });
