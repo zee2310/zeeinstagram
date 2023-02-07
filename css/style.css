@@ -207,3 +207,15 @@ text-align: center;
         margin: 10px 0 10px 0 ;
     }
   }
+
+  .player-card{
+    width: 18rem;
+    height: 467px !important;
+  }
+  .img-card{
+    height: 250px; 
+  }
+  .img-uploaded{
+    width: 100%;
+    height: 100%;
+  }

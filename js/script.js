@@ -1,5 +1,14 @@
-$('.test').on('change', function () {
-  $(".image-text").html(this.value);
+// $('.test').on('change', function () {
+//   $(".image-text").html(this.value);
+// });
+
+$('.test').on('keyup', function () {
+  // var test =  $( this ).val().replace('\n', '<br/>') 
+  var test =  $( this ).val();
+  text = test.replace(/\r?\n/g, '<br/>');
+  console.log(test);
+  console.log(text);
+$(".image-text").html(text);
 });
 
 $('.author-name').on('change', function () {
@@ -323,4 +332,20 @@ $('.title').slick({
   autoplay: true,
   arrows:false,
   autoplaySpeed: 2000,
+});
+
+function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      $('.img-uploaded').attr('src', e.target.result);
+      $('.img-uploaded').hide();
+      $('.img-uploaded').fadeIn(650);
+    }
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+
+$("#files").change(function() {
+  readURL(this);
 });
