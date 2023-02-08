@@ -11,6 +11,14 @@ $('.test').on('keyup', function () {
 $(".image-text").html(text);
 });
 
+$('.text-top').click(function() {
+  if ($(this).is(":checked")){
+    $(".img-text").css("padding-top","0px");
+  }else{
+    $(".img-text").css("padding-top","175px");
+  }
+});
+
 $('.author-name').on('change', function () {
   $(".author").html(this.value);
   $(".author").css('font-size', '23px');
