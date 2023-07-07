@@ -330,6 +330,23 @@ $("#downloadImg").on('click', function () {
   })
 });
 
+$("#downloadKplImage").on('click', function (e) {
+  e.preventDefault();
+  console.log("aaa");
+  const screenshotTarget = $(".kpl-card")[0];
+
+  html2canvas(screenshotTarget).then((canvas) => {
+    // $("#out_image").append(canvas);
+    const base64image = canvas.toDataURL("jpeg");
+    var anchor = document.createElement('a');
+    anchor.setAttribute("href", base64image);
+    anchor.setAttribute("download", "Kpl_form.jpeg");
+    anchor.click();
+    anchor.remove();
+
+  })
+});
+
 $(document).on("click", "#test-element", function () {
   alert("click");
 });
@@ -346,14 +363,29 @@ function readURL(input) {
   if (input.files && input.files[0]) {
     var reader = new FileReader();
     reader.onload = function(e) {
-      $('.img-uploaded').attr('src', e.target.result);
-      $('.img-uploaded').hide();
-      $('.img-uploaded').fadeIn(650);
+      $('#kplMainImg').attr('src', e.target.result);
+      $('#kplMainImg').hide();
+      $('#kplMainImg').fadeIn(650);
     }
     reader.readAsDataURL(input.files[0]);
   }
 }
 
-$("#files").change(function() {
+$("#kplImageUpload").change(function() {
   readURL(this);
+});
+
+$("#position").change(function() {
+  var val = $(this).val();
+  $(".position_name").html(val)
+});
+
+$("#LastName").keyup(function() {
+  var val = $(this).val();
+  $(".last_name").html(val)
+});
+
+$("#firstName").keyup(function() {
+  var val = $(this).val();
+  $(".first_name").html(val)
 });
